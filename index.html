@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <!-- A-Frame standard library if needed -->
+    <script src="https://aframe.io/releases/latest/aframe.min.js"></script>
+
+    <!-- Component (includes A-Frame core) -->
+    <script src='http://d33wubrfki0l68.cloudfront.net/js/9fa09810d1fd91c37fe4dc716d083e3112833df5/dist/aframe-no-click-look-controls.min.js'></script>
+</head>
+
+<body>
+    <a-scene>
+        <a-entity camera no-click-look-controls></a-entity>
+        <a-sky src="img/5.jpg" rotation="0 -130 0"></a-sky>
+    </a-scene>
+
+    <script>
+        setTimeout(function () {
+            window.location.href = "three.html";
+        }, 9000);
+    </script>
+
+</body>
+
+</html>
